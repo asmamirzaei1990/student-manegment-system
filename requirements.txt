@@ -1,0 +1,2 @@
+# No third-party runtime dependencies. The project uses Python standard library.
+pytest>=8.0

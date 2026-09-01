@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+app.log
+student_management.db
+.DS_Store
+.idea/
+.vscode/
