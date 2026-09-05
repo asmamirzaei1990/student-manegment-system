@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SMS - Student Management System</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <aside class="sidebar">
+
+            <div class="brand">
+
+                <div class="brand-icon">
+                    🎓
+                </div>
+
+                <div>
+                    <b>SMS</b>
+
+                    <small>
+                        Student Management System
+                    </small>
+                </div>
+
+            </div>
+
+
+            <!-- Navigation -->
+
+            <nav id="sidebarNav">
+
+                <a
+                    data-page="dashboard"
+                    class="nav active"
+                >
+                    <span>⌂</span>
+                    Dashboard
+                </a>
+
+
+                <div class="section-title">
+                    MANAGEMENT
+                </div>
+
+
+                <a
+                    data-page="students"
+                    class="nav"
+                >
+                    <span>👥</span>
+                    Students
+                </a>
+
+
+                <a
+                    data-page="professors"
+                    class="nav"
+                >
+                    <span>👨‍🏫</span>
+                    Professors
+                </a>
+
+
+                <a
+                    data-page="courses"
+                    class="nav"
+                >
+                    <span>📚</span>
+                    Courses
+                </a>
+
+
+                <a
+                    data-page="enrollments"
+                    class="nav"
+                >
+                    <span>📝</span>
+                    Enrollments
+                </a>
+
+
+                <a
+                    data-page="grades"
+                    class="nav"
+                >
+                    <span>✓</span>
+                    Grades
+                </a>
+
+
+                <div class="section-title">
+                    SYSTEM
+                </div>
+
+
+                <a
+                    data-page="users"
+                    class="nav"
+                >
+                    <span>👤</span>
+                    Users
+                </a>
+
+
+                <a
+                    data-page="reports"
+                    class="nav"
+                >
+                    <span>📊</span>
+                    Reports
+                </a>
+
+
+                <a
+                    data-page="settings"
+                    class="nav"
+                >
+                    <span>⚙</span>
+                    Settings
+                </a>
+
+            </nav>
+
+
+            <!-- Welcome Box -->
+
+            <div class="welcome">
+
+                <div class="big-icon">
+                    🎓
+                </div>
+
+                <h3>
+                    Welcome back!
+                </h3>
+
+                <p>
+                    Manage your university
+                    data efficiently.
+                </p>
+
+            </div>
+
+
+            <!-- User Profile -->
+
+            <div class="profile">
+
+                <div class="avatar">
+                    AM
+                </div>
+
+                <div>
+
+                    <b>
+                        Asma Mirzaei
+                    </b>
+
+                    <small>
+                        Administrator
+                    </small>
+
+                </div>
+
+                <span>
+                    ⌄
+                </span>
+
+            </div>
+
+        </aside>
+
+        <main class="main">
+
+            <!-- Header -->
+
+            <header class="topbar">
+
+                <div>
+
+                    <h1 id="pageTitle">
+                        Dashboard
+                    </h1>
+
+                    <p id="pageSubtitle">
+                        Overview of your university system
+                    </p>
+
+                </div>
+
+
+                <div class="top-actions">
+
+                    <label class="search">
+
+                        <span>
+                            ⌕
+                        </span>
+
+                        <input
+                            id="globalSearch"
+                            type="text"
+                            placeholder="Search anything..."
+                        >
+
+                    </label>
+
+
+                    <button>
+                        🔔
+                    </button>
+
+
+                    <button>
+                        ☼
+                    </button>
+
+                </div>
+
+            </header>
+
+
+            <div id="page">
+
+            </div>
+
+        </main>
+
+    </div>
+ 
+    <div id="modalRoot"></div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

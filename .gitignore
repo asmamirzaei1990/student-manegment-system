@@ -1,10 +1,29 @@
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
 .pytest_cache/
-.venv/
-venv/
-app.log
-student_management.db
-.DS_Store
-.idea/
+.coverage
+
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+app.log
+
+# Database backups (if any)
+*.db-journal
+
+# Environment
+.env
+.venv
+venv/
